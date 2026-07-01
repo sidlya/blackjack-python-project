@@ -44,3 +44,52 @@
 - pytest
 - pygame
 - os
+
+# ENG VERSION
+
+# Blackjack
+
+### Blackjack is a card game where the player attempts to beat the dealer by obtaining a hand total as close to 21 as possible, without exceeding it.
+
+## Instructions:
+
+1. At the start of the game, both the dealer and the player receive two cards. The player's cards are fully visible, while only one of the dealer's cards is revealed.
+2. The player can choose between two options: **HIT** (take another card) or **STAND** (keep the current hand). The player's goal is to maximize their score without going over 21.
+3. Once the player stands, the dealer's second card is revealed. If the dealer's total is under 17 points, they must draw additional cards until their score reaches at least 17.
+4. After the dealer finishes drawing, the system calculates the scores and displays one of four outcomes.
+
+## Card Values:
+
+* **A (Ace)** – 1 or 11 points
+* **K, Q, J, 10** – 10 points
+* **9** – 9 points
+* **8** – 8 points
+* **7** – 7 points
+* **6** – 6 points
+* **5** – 5 points
+* **4** – 4 points
+* **3** – 3 points
+* **2** – 2 points
+
+## Game Outcomes:
+
+1. **Player bust** – The player's total exceeded 21 points.
+2. **Player win** – The player scored higher than the dealer without exceeding 21.
+3. **Dealer win** – The dealer scored higher than the player without exceeding 21.
+4. **Tie game (Push)** – A draw; both the player and the dealer achieved the exact same score.
+
+## Resources Used:
+
+* [Stiff Brush JK Font](https://www.1001fonts.com/stiff-brush-jk-font.html) – Typography (Free to use)
+* [Kenney Playing Cards Pack](https://kenney.nl/assets/playing-cards-pack) – Card assets (Free to use)
+* [Pygame Documentation](https://www.pygame.org/docs/) – Graphics and game loop reference
+* [ChatGPT](https://chatgpt.com/) – AI assistance (Free version)
+* [W3Schools Python Tutorial](https://www.w3schools.com/python/) – Python programming reference
+
+## Libraries Used:
+
+* `copy`
+* `random`
+* `pytest`
+* `pygame`
+* `os`
